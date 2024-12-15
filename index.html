@@ -15,16 +15,16 @@
 </head>
 
 <body class="page">
-  <div class="plan-container">
+  <header class="plan-container">
     <img src="./eisenhower-matrix.jpg">
     <a class="plan-container__more"
       href="https://goal-life.com/page/method/matrix-eisenhower"
     >
       Want more details?
     </a>
-  </div>
-  <div class="main">
-    <p id="main__add-elem">
+  </header>
+  <main class="main">
+    <section id="main__add-elem">
       <label for="main__new-task" class="main__label">Add Item</label>
       <div class="main__row-wrap">
         <input id="main__new-task"
@@ -33,10 +33,10 @@
         >
         <button main__button>Add</button>
       </div>
-    </p>
+    </section>
     <h3 class="main__header">Todo</h3>
-    <ul id="main__incomplete">
-      <li class="main__li">
+    <section id="main__incomplete">
+      <article class="main__li">
         <input type="checkbox" class="main__input-checkbox">
         <label class="main__label-task main__label" >Pay Bills</label>
         <input type="text" class="main__task main__input">
@@ -44,8 +44,8 @@
         <button class="main__delete main__button">
           <img src="./remove.svg">
         </button>
-      </li>
-      <li class="main__edit-mode main__li">
+      </article>
+      <article class="main__edit-mode main__li">
         <input type="checkbox" class="main__input-checkbox">
         <label class="main__label-task main__label">Go Shopping</label>
         <input type="text"
@@ -56,11 +56,11 @@
         <button class="main__delete main__button">
           <img src="./remove.svg">
         </button>
-      </li>
-    </ul>
+      </article>
+    </section>
     <h3 class="main__header">Completed</h3>
-    <ul id="main__completed">
-      <li class="main__li">
+    <section id="main__completed">
+      <article class="main__li">
         <input type="checkbox" class="main__input-checkbox" checked>
         <label class="main__label-task main__label">
           See the Doctor
@@ -70,9 +70,9 @@
         <button class="main__delete main__button">
           <img src="./remove.svg">
         </button>
-      </li>
-    </ul>
-  </div>
+      </article>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 

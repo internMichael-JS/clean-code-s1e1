@@ -17,7 +17,7 @@ addButton.className="main__button";
 //New task list item
 var createNewTaskElement=function(taskString){
 
-    var listItem=document.createElement("li");
+    var listItem=document.createElement("article");
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
