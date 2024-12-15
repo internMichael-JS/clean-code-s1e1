@@ -14,7 +14,7 @@
   >
 </head>
 
-<body>
+<body class="page">
   <div class="plan-container">
     <img src="./eisenhower-matrix.jpg">
     <a class="plan-container__more"
@@ -25,49 +25,49 @@
   </div>
   <div class="main">
     <p id="main__add-elem">
-      <label for="main__new-task">Add Item</label>
+      <label for="main__new-task" class="main__label">Add Item</label>
       <div class="main__row-wrap">
         <input id="main__new-task"
-          class="main__task"
+          class="main__task main__input"
           type="text"
         >
-        <button>Add</button>
+        <button main__button>Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="main__header">Todo</h3>
     <ul id="main__incomplete">
-      <li>
-        <input type="checkbox">
-        <label class="main__task">Pay Bills</label>
-        <input type="text" class="main__task">
-        <button class="main__edit">Edit</button>
-        <button class="main__delete">
+      <li class="main__li">
+        <input type="checkbox" class="main__input-checkbox">
+        <label class="main__label-task main__label" >Pay Bills</label>
+        <input type="text" class="main__task main__input">
+        <button class="main__edit main__button">Edit</button>
+        <button class="main__delete main__button">
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="main__edit-mode">
-        <input type="checkbox">
-        <label class="main__task">Go Shopping</label>
+      <li class="main__edit-mode main__li">
+        <input type="checkbox" class="main__input-checkbox">
+        <label class="main__label-task main__label">Go Shopping</label>
         <input type="text"
           value="Go Shopping"
-          class="main__task"
+          class="main__task main__input"
         >
-        <button class="main__edit">Save</button>
-        <button class="main__delete">
+        <button class="main__edit main__button">Save</button>
+        <button class="main__delete main__button">
           <img src="./remove.svg">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="main__header">Completed</h3>
     <ul id="main__completed">
-      <li>
-        <input type="checkbox" checked>
-        <label class="main__task">
+      <li class="main__li">
+        <input type="checkbox" class="main__input-checkbox" checked>
+        <label class="main__label-task main__label">
           See the Doctor
         </label>
-        <input type="text" class="main__task">
-        <button class="main__edit">Edit</button>
-        <button class="main__delete">
+        <input type="text" class="main__task main__input">
+        <button class="main__edit main__button">Edit</button>
+        <button class="main__delete main__button">
           <img src="./remove.svg">
         </button>
       </li>
