@@ -1,11 +1,9 @@
-/* Basic Style */
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-/**/
 .plan-container {
   width: 500px;
   margin: 0 auto;
@@ -74,7 +72,6 @@
   color: #3a3a3a;
 }
 
-/* Heading */
 .main__header,
 .main__add-elem .main__label {
   color: #333;
@@ -103,7 +100,6 @@
   color: #333;
 }
 
-/* New Task */
 .main__add-elem .main__label {
   display: block;
   margin: 0 0 20px;
@@ -113,7 +109,6 @@
   width: 318px;
 }
 
-/* Task list */
 .main__li {
   overflow: hidden;
   padding: 20px 0;
@@ -156,13 +151,11 @@
   transform: rotateZ(0);
 }
 
-/* Completed */
 .main__completed .main__label-task {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
 .main__li .main__task {
   display: none;
 }
